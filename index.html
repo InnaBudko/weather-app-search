@@ -19,6 +19,23 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <div class="row justify-content-end">
+            <div class="col-8">
+              <form class="form-inline mb-3" id="search-form">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    class="form-control rounded"
+                    placeholder="Type a city..."
+                    aria-label="Search"
+                    aria-describedby="search-addon"
+                    id="city-input"
+                  />
+                  <button type="button" class="btn btn-primary">search</button>
+                </div>
+              </form>
+            </div>
+          </div>
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
